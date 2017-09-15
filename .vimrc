@@ -22,8 +22,8 @@ let mapleader = ','
 """"""""""""""""""""""""""""""""""""""
 "emmet
 let g:user_emmet_leader_key=','
-let g:user_emmet_install_global=0
-au FileType html,css,php EmmetInstall
+"let g:user_emmet_install_global=0
+"au FileType html,css,php EmmetInstall
 "airline
 set laststatus=2
 "syntastic
@@ -37,6 +37,7 @@ let g:syntastic_check_on_wq = 0
 let g:syntastic_html_checkers = ['tidy']
 let g:syntastic_css_checkers = ['csslint']
 let g:syntastic_javascript_checkers = ['eslint']
+let g:syntastic_python_checkers = ['flake8']
 """"""""""""""""""""""""""""""""""""""
 "for handlebars syntax, same as html
 au BufNewFile,BufRead *.handlebars set filetype=html
@@ -53,3 +54,4 @@ set showcmd
 set encoding=utf-8
 set splitright
 set splitbelow
+set swapfile
