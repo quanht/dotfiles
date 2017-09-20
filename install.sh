@@ -21,10 +21,11 @@ nvm install node
 # cnpm
 npm i -g cnpm --registry=https://registry.npm.taobao.org
 
-# .vimrc, .eslintrc.json
+# .vimrc, .eslintrc.json, .tern-project
 git clone https://github.com/quanht/dotfiles ~/github/dotfiles
 ln -s ~/github/dotfiles/.vimrc ~/.vimrc
 ln -s ~/github/dotfiles/.eslintrc.json ~/.eslintrc.json
+ln -s ~/github/dotfiles/.tern-project ~/.tern-project
 
 # Vundle and vim plugins
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim

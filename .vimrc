@@ -21,6 +21,11 @@ filetype plugin indent on
 """"""""""""""""""""""""""""""""""""""
 let mapleader = ','
 """"""""""""""""""""""""""""""""""""""
+" how to install youcompleteme ?
+" 1, add it in Plugin list
+" 2, ~/.vim/bundle/YouCompleteMe/install.py --tern-completer
+" 3, add ~/.tern-project
+""""""""""""""""""""""""""""""""""""""
 "emmet
 let g:user_emmet_leader_key=','
 "let g:user_emmet_install_global=0
